@@ -2,7 +2,7 @@
     "name": "my-project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://bakrali2021.github.io",
+    "homepage": "https://bakrali2021.github.io/ReactFood",
     "dependencies": {
         "@splidejs/react-splide": "^0.7.7",
         "@testing-library/jest-dom": "^5.16.4",
@@ -48,6 +48,7 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.7",
+        "gh-pages": "^4.0.0",
         "postcss": "^8.4.13",
         "tailwindcss": "^3.0.24"
     }

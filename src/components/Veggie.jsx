@@ -30,7 +30,22 @@ function Veggie() {
               arrows: true,
               pagination: false,
               gap: '5rem',
-              drag: 'free'
+              drag: 'free',
+              breakpoints: {
+                1024: {
+                  perPage: 3,
+                 
+                },
+                767: {
+                  perPage: 2,
+              
+                },
+                640: {
+                  perPage: 1,
+            
+                },
+              },
+              focus: "center",
           }} ></Slider>
      </Fragment>
   )

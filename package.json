@@ -2,7 +2,7 @@
     "name": "my-project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://bakrali2021.github.io/ReactFood",
+    "homepage": "https://bakrali2021.github.io/ReactFood/",
     "dependencies": {
         "@splidejs/react-splide": "^0.7.7",
         "@testing-library/jest-dom": "^5.16.4",

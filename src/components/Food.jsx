@@ -11,7 +11,7 @@ function Food({ FoodList }) {
               key={cuis.id}
               className="relative rounded-3xl overflow-hidden cursor-pointer"
             >
-              <Link to={"/recipie/" + cuis.id}>
+              <Link to={`/recipie/${cuis.id}`}>
                 <div>
                   <p className="z-10 absolute font-bold top-1/2 text-center w-full text-lg  -translate-y-1/2 text-white">
                     {cuis.title}

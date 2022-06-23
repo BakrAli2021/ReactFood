@@ -5,7 +5,7 @@ import { GiKnifeFork } from "react-icons/gi";
 function Category() {
   return (
     <div className="flex pt-2 bg-red-900 text-white p-4 justify-center flex-col md:flex-row gap-y-4 flex-wrap items-center ">
-      <NavLink to={"/ReactFood"} className="logo flex items-center text-3xl">
+      <NavLink to={"/"} className="logo flex items-center text-3xl">
         <GiKnifeFork></GiKnifeFork>
         <h3>deliciouss</h3>
       </NavLink>

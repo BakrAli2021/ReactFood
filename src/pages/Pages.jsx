@@ -13,7 +13,7 @@ function Pages() {
     <Fragment>
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
-          <Route path="/ReactFood" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cuisine/:type" element={<Cuisine />} />
           <Route path="/searched/:search" element={<Searched />} />
           <Route path="/recipie/:name" element={<Recipie />} />

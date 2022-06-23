@@ -14,7 +14,7 @@ function Slider({ Popular, title, options, head_styled }) {
               key={recipe.id}
               className="slide relative rounded-3xl overflow-hidden cursor-pointer"
             >
-              <Link to={"recipie/" + recipe.id}>
+              <Link to={`/recipie/${recipe.id}`}>
                 <div className="overflow-hidden  ">
                   <p className="z-10 absolute top-1/2 text-center w-full text-lg  -translate-y-1/2 text-white">
                     {recipe.title}
